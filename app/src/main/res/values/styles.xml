@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+
+    <style name="BaseTextStyle">
+
+    </style>
+
+    <style name="FragmentLayoutStyle">
+
+
+    </style>
+
+</resources>

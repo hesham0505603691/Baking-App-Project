@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ingredient_item_min_height"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ingredient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ingredient_item_spacing"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="@dimen/item_text_size"
+        tools:text="Graham Cracker crumbs" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/ingredient_item_spacing"
+        android:layout_marginBottom="@dimen/ingredient_item_spacing" >
+
+        <TextView
+            android:id="@+id/ingredient_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/item_text_size" />
+
+        <TextView
+            android:id="@+id/ingredient_measure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ingredient_item_margin_left"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/item_text_size" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_home_height">300dp</dimen>
+    <dimen name="baking_text_size">36sp</dimen>
+    <dimen name="main_margin">5dp</dimen>
+    <dimen name="tablet_width_container">250dp</dimen>
+    <dimen name="tablet_width_details">350dp</dimen>
+    <dimen name="exoplayer_height">400dp</dimen>
+</resources>

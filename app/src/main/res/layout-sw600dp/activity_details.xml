@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.hesham.baking.com.hesham.baking.details">
+
+    <FrameLayout
+        android:id="@+id/steps_container"
+        android:layout_width="@dimen/tablet_width_container"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:id="@+id/steps_details"
+        android:layout_gravity="top"
+        android:layout_width="@dimen/tablet_width_details"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>

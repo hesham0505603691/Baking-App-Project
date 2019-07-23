@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hesham.baking.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_spinner"
+        android:layout_width="@dimen/spinner_width"
+        android:layout_height="@dimen/spinner_height"
+        android:layout_gravity="center"
+        android:progressDrawable="@color/colorPrimaryLight"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_baking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

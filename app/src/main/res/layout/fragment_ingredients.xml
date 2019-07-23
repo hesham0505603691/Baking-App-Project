@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ingredient_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick_Ingredient"
+    card_view:cardCornerRadius="@dimen/layout_card_corner_raduis"
+    card_view:contentPadding="@dimen/layout_card_space"
+    android:layout_margin="@dimen/layout_card_space"
+    android:layout_marginBottom="@dimen/layout_card_space"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.v7.widget.CardView>

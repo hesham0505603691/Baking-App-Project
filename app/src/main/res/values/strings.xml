@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">baking</string>
+
+
+
+    <string name="config">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="preference" translatable="false">mypreference</string>
+    <string name="contentSaved" translatable="false">Content_Saved</string>
+    <string name="empty_text_view">The view is empty load main app first</string>
+    <string name="text_ingredients">INGREDIENTS</string>
+    <string name="line_divider">line divider</string>
+    <string name="ingredient_content_description">image for content</string>
+    <string name="widget_recipe_icon">widget recipe icon</string>
+    <string name="back_button_image">back button image</string>
+    <string name="bake_recipe_icon">bake recipe icon</string>
+    <string name="widget_home_button_icon">widget home button icon</string>
+    <string name="navigation_button_icon">navigation button icon</string>
+    <string name="recipe_image_thumbnail">Recipe image thumbnail</string>
+
+
+</resources>

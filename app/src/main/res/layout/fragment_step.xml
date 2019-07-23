@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ingredient_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick_Ingredient"
+    card_view:cardCornerRadius="@dimen/layout_card_corner_raduis"
+    card_view:contentPadding="@dimen/layout_card_space"
+    android:layout_margin="@dimen/layout_card_space"
+    android:layout_marginBottom="@dimen/layout_card_space"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/step_layout_margin"
+        android:keepScreenOn="true"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/thumbnail_img"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/recipe_image_thumbnail"
+                />
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exoplayer_height"
+            android:layout_marginTop="@dimen/step_layout_margin"
+            />
+
+        <TextView
+            android:id="@+id/step_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/step_description_margin"
+            android:layout_below="@id/video_view"
+            android:textAlignment="center"
+            android:textSize="@dimen/step_description_text_size"
+            />
+
+        </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="0"
+                android:layout_marginTop="@dimen/step_layout_margin"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/previous_btn"
+                    android:layout_width="@dimen/navigation_btn_width"
+                    android:layout_height="@dimen/navigation_btn_height"
+                    android:layout_margin="@dimen/step_layout_margin"
+                    android:background="@null"
+                    android:onClick="previous"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/previousbutton"
+                    android:contentDescription="@string/navigation_button_icon" />
+
+
+                <ImageButton
+                    android:id="@+id/next_btn"
+                    android:layout_width="@dimen/navigation_btn_width"
+                    android:layout_height="@dimen/navigation_btn_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/previous_btn"
+                    android:layout_marginEnd="@dimen/navigation_btn_margin_end"
+                    android:layout_marginRight="@dimen/navigation_btn_margin_end"
+                    android:background="@null"
+                    android:onClick="next"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nextbutton"
+                    android:contentDescription="string/navigation_button_icon" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.CardView>

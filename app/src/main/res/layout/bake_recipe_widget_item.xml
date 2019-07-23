@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_recipe_item_padding"
+    android:layout_width="@dimen/widget_recipe_item_width"
+    android:layout_height="@dimen/widget_recipe_item_height">
+
+
+    <ImageView
+        android:id="@+id/recipe_widget_img"
+        android:layout_width="@dimen/widget_bake_item_img_width"
+        android:layout_height="@dimen/widget_bake_item_img_height"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/yellowcake"
+        android:contentDescription="@string/widget_recipe_icon" />
+
+    <TextView
+        android:id="@+id/recipe_widget_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/widget_bake_item_text"
+        android:textStyle="bold" />
+
+</FrameLayout>

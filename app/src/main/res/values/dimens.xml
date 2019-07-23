@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_home_height">250dp</dimen>
+    <dimen name="baking_text_size">30sp</dimen>
+    <dimen name="main_margin">5dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="spinner_width">48dp</dimen>
+    <dimen name="spinner_height">48dp</dimen>
+    <dimen name="exoplayer_height">300dp</dimen>
+    <dimen name="widget_button_width">32dp</dimen>
+    <dimen name="widget_back_height">32dp</dimen>
+    <dimen name="widget_home_height">32dp</dimen>
+    <dimen name="widget_home_padding">8dp</dimen>
+    <dimen name="ingredient_widget_rel_height">28dp</dimen>
+    <dimen name="widget_layout_margin">5dp</dimen>
+    <dimen name="widget_text_title_size">16sp</dimen>
+    <dimen name="widget_back_button_margin">4dp</dimen>
+    <dimen name="widget_ingredient_marginleft">18dp</dimen>
+    <dimen name="bake_item_layout_margin">8dp</dimen>
+    <dimen name="bake_item_layout_card_corner_raduis">4dp</dimen>
+    <dimen name="widget_recipe_item_padding">5dp</dimen>
+    <dimen name="widget_recipe_item_width">90dp</dimen>
+    <dimen name="widget_recipe_item_height">90dp</dimen>
+    <dimen name="widget_bake_item_img_width">85dp</dimen>
+    <dimen name="widget_bake_item_img_height">80dp</dimen>
+    <dimen name="widget_bake_item_text">14sp</dimen>
+    <dimen name="widget_home_button_margin">4dp</dimen>
+    <dimen name="layout_card_corner_raduis">10dp</dimen>
+    <dimen name="layout_card_space">5dp</dimen>
+    <dimen name="step_layout_margin">5dp</dimen>
+    <dimen name="step_description_margin">10dp</dimen>
+    <dimen name="step_description_text_size">26sp</dimen>
+    <dimen name="navigation_btn_width">68dp</dimen>
+    <dimen name="navigation_btn_height">68dp</dimen>
+    <dimen name="navigation_btn_margin_end">14dp</dimen>
+    <dimen name="coordinator_appbar_layout_height">180dp</dimen>
+    <dimen name="coordinator_toolbar_textsize">46sp</dimen>
+    <dimen name="coordinator_text_margin">30dp</dimen>
+    <dimen name="ingredient_img_width">48dp</dimen>
+    <dimen name="ingredient_img_hieght">48dp</dimen>
+    <dimen name="steps_ingredient_text_size">30sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="steps_content_margin">10dp</dimen>
+    <dimen name="ingredient_item_min_height">80dp</dimen>
+    <dimen name="ingredient_item_spacing">4dp</dimen>
+    <dimen name="item_text_size">22sp</dimen>
+    <dimen name="ingredient_item_margin_left">5dp</dimen>
+    <dimen name="steps_frame_min_height">48dp</dimen>
+    <dimen name="steps_margin">5dp</dimen>
+    <dimen name="widget_divider_height" type="dimen" format="float">0.5dp</dimen>
+</resources>

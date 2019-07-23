@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/widget_layout_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ingredient_widget_rel_height"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/back_widget_btn"
+            android:src="@drawable/backwidget"
+            android:scaleType="fitCenter"
+            android:layout_width="@dimen/widget_button_width"
+            android:layout_height="@dimen/widget_back_height"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorWhite"
+            android:layout_margin="@dimen/widget_back_button_margin"
+            android:contentDescription="@string/back_button_image"
+            />
+
+        <TextView
+            android:id="@+id/widget__ingredient_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_ingredient_marginleft"
+            android:textAlignment="center"
+            android:textSize="@dimen/widget_text_title_size"
+            android:text="@string/text_ingredients"
+            android:textColor="@color/colorPrimaryLight"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/widget_listview"
+        android:layout_marginTop="@dimen/widget_layout_margin"
+        android:divider="@color/colorPrimaryLight"
+        android:dividerHeight="@dimen/widget_divider_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/empty_text_view"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/widget_text_title_size"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
